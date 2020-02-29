@@ -149,6 +149,8 @@ Supported Providers
 
 - Pinterest (OAuth2)
 
+- Questrade (OAuth2)
+
 - QuickBooks (OAuth2)
 
 - Reddit (OAuth2)

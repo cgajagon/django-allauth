@@ -1317,6 +1317,20 @@ SCOPE:
     For a full list of scope options, see
     https://developers.pinterest.com/docs/api/overview/#scopes
 
+
+Questrade
+---------
+
+App registration (get your key and secret here)
+    https://developers.intuit.com/v2/ui#/app/startcreate
+
+Development callback URL
+    http://localhost:8000/accounts/questrade/login/callback/
+
+API Documentation
+    https://www.questrade.com/api/documentation/authorization
+
+
 QuickBooks
 ----------
 
