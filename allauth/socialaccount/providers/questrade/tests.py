@@ -2,11 +2,11 @@ from allauth.socialaccount.models import SocialAccount
 from allauth.socialaccount.tests import OAuth2TestsMixin
 from allauth.tests import MockedResponse, TestCase
 
-from .provider import GitHubProvider
+from .provider import QuestradeProvider
 
 
-class GitHubTests(OAuth2TestsMixin, TestCase):
-    provider_id = GitHubProvider.id
+class QuestradeTests(OAuth2TestsMixin, TestCase):
+    provider_id = QuestradeProvider.id
 
     def get_mocked_response(self):
         return MockedResponse(200, """
